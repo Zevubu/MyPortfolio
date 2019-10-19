@@ -1,0 +1,582 @@
+body{
+    background-image:  url("../../assets/images/52997219_317714915552392_178585419777813535_n.jpg");
+    /* background-repeat:  no-repeat; */
+    background-size: contain;
+    background-position: center 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Sans KR', sans-serif;
+    /* text-shadow: 2px 2px rgb(0, 0, 0); */
+    background-color: rgb(236, 231, 215);
+    font-size: 18px;
+    line-height: 22px;
+    /* background-color: rgb(231, 177, 233); */
+    
+}
+/* 
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Special Elite', cursive;
+
+font-family: 'Medula One', cursive;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Literata', serif; */
+#head-box{
+   padding: 11.5%;
+   color: rgb(209, 202, 179);
+   text-shadow: 2px 2px rgb(0, 0, 0);
+   text-align: center;
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   font-family: 'IM Fell English SC', serif;
+}
+
+#main-box{
+    background-image:  url("../../assets/images/natural-muslin-fabric-7-yard-bolt-by-the.jpg");
+    background-repeat: repeat;
+    /* background-size: contain; */
+    background-position: center 0;
+    width:100%;
+    justify-content: center;
+    border: 2px rgba(54, 43, 43, 0.513) solid;
+}
+#page-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.f-r-c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.f-c-c-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.f-c-se{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.f-r-se{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.f-r-sb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#nav-below{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-btn{
+    color:black;
+    font-family: 'IM Fell English SC', serif;
+    border-radius: 50px 23px 50px 23px;
+    background-color: rgba(201, 194, 159, 0.342);
+    margin:1% 7% 1% 7%;  
+    width: 105px;
+    height: 35px;
+    padding-top: 20px;
+    border: 2px rgba(54, 43, 43, 0.513) solid;
+    text-align: center;
+}
+#open-box{
+    width: 80%;
+    height: 100%;
+    /* background-image:  url(http://www.cabaretfringefestival.com/wp-content/uploads/2015/04/iStock_000014002628Large-1024x681.jpg); */
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    margin-top: 23px;
+
+}
+#open-name-box{
+    margin-top: 15px;
+    text-align: center;
+}
+
+#open-name{
+    font-size: 70px;
+    /* font-family: 'Special Elite', cursive; */
+    line-height: 120%;
+    margin-top: 2%;
+}
+#open-fsd{
+    font-size: 30px;
+    margin-top: 1%;
+}
+
+#opening-img{
+    width: 30%;
+    height: auto;
+}
+#open-img-box{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+h2{
+    font-size: 30px;
+}
+
+/* about me style*/
+.flex-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#about-content, #port-content, #contact-content {
+    
+    width: 100%;
+    height: auto;
+    margin: 35px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about-box{
+    /* background-color: rgba(0, 0, 0, 0.349); */
+    border: 2px rgba(54, 43, 43, 0.513) solid;
+    justify-content: center;
+
+}
+
+.shark-pick{
+    height: auto;
+}
+
+#title-block{
+    border-bottom:2px rgba(54, 43, 43, 0.513) solid;
+}
+
+#p-side {
+    width: 780px ;
+    height: auto;
+    margin: 2px;
+    margin-left: 10px;
+    /* color: rgb(47, 47, 45);
+    text-shadow: 2px 2px rgb(255, 255, 255); */
+}
+
+p{
+    margin: 0 auto;
+}
+
+#p-below {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#pic {
+    width: 150px;
+    height: 229.825px;
+    align-self: left;
+    position: relative;
+}
+.flex-word {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* end about me style*/
+
+/* portfolio style */
+#port-box{
+    /* width: 80%; */
+    /* background-color: rgba(0, 0, 0, 0.349); */
+    border: 2px rgba(54, 43, 43, 0.513) solid;
+}
+
+#links-1, #links-2, #links-3, #links-4, #links-5, #links-6{
+    color: black;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.flex-first-imgs{
+    display: flex;
+    flex-direction:row; 
+    align-items: flex-start;
+    justify-content:center;
+    position: inherit;
+
+    
+}
+
+.flex-aside-imgs {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    justify-content: center;
+    position: inherit;
+}
+
+.pick-word {
+    margin: 2%;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+}
+
+.portfolio-pick {
+    width: 400px;
+    height: auto;
+    margin-top: 0%;
+}
+
+.banner {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.349);
+    top: 70%;
+}
+
+.portfolio-word{
+    text-align: center;
+    color: rgb(209, 202, 179);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.filler{
+    margin-top: auto;
+    width: 300%;
+    height: auto;
+}
+/* end protfolio style */
+
+/* contact me style */
+#contact-box{
+    width: 80%;
+    margin-bottom: 5%;
+    /* background-color: rgba(0, 0, 0, 0.349); */
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    color: rgb(209, 202, 179);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+#name-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    border: 1px;
+    border-color:darkgray;
+    border-style: solid;
+
+}
+
+#mail {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    border: 1px;
+    border-color: darkgray;
+    border-style: solid;
+
+}
+
+#msg{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    border: 1px;
+    border-color:darkgray;
+    border-style: solid;
+}
+
+form {
+    margin: 0 auto;
+    width: auto;
+    
+}
+
+/* end contact me style */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    padding:6px;
+    border-top: 2px;
+    border-top-style: solid;
+    border-color:rgb(223, 223, 223);
+    background-color:rgb(23, 23, 23);
+    color: white;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:1224px) { 
+    #pic {
+        width:50%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+    .flex-word {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .page-content{
+        width: 60%; 
+    }
+
+    p,br {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    p{
+        margin: 0 auto;
+    }
+    
+    #p-below {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 30px;
+       
+    
+    }
+
+    #p-side{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    
+    
+        /* portfolio style */
+    .flex-container {
+        width:auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .flex-first-imgs{
+        display: flex;
+        flex-direction:column; 
+        align-items: flex-start;
+        justify-content:flex-start;
+        position: inherit;
+    
+        
+    }
+    .flex-aside-imgs {
+        display: flex;
+        flex-direction:column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        position: inherit;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    .pick-word {
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        font-size: 15px;
+    }
+
+} 
+
+
+@media screen and (max-width:1000px) {
+  
+    .flex-nav {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    
+    .name{
+        padding: 0%;
+        margin:0 auto;
+        
+    }
+    
+    
+    nav {
+        
+        width: auto;
+        height: 80px;
+        margin: 0 auto;
+    }
+    
+    .navmn{
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .navmn a:hover{
+        padding: 12px;
+    
+    }
+
+    .active{
+        padding: 8px;
+    }
+
+    .flex-word {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .portfolio-pick {
+        width: 300px;
+        height: auto;
+        margin-top: 0%;
+        
+    
+    }
+    
+    
+} 
+
+@media screen and (max-width:950px) { 
+    
+    .page-content{
+        width: 55%;
+        
+    }
+    .flex-container {
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .flex-first-imgs{
+        display: flex;
+        flex-direction:column; 
+        align-items: flex-start;
+        justify-content:flex-start;
+        position: inherit;
+    
+        
+    }
+    .flex-aside-imgs {
+        display: flex;
+        flex-direction:column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        position: inherit;
+        
+    }
+
+} 
+
+@media screen and (max-width:900px) { 
+    
+    .page-content{
+    width: 60%;
+    
+    }
+
+} 
+
+@media screen and (max-width:850px) { 
+    
+    .page-content{
+        width: 65%;
+    }
+}
+
+
+
+
+@media screen and (max-width:800px) { 
+    
+    .page-content{
+        width: 70%;
+    }
+    .nav-btn{
+        border-radius: 50px 23px 50px 23px;
+        background-color: rgba(0, 0, 0, 0.349);
+        margin:1% 7% 1% 7%;  
+        width: 85px;
+        height: 30px;
+        padding-top: 15px;
+        border: 2px rgba(54, 43, 43, 0.513) solid;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    /* contact style */
+    
+    
+    #name {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+        
+    
+    }
+    
+    #mail {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+    
+    }
+    
+    #msg{
+        width: 100%;
+        height: 200px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    form {
+        margin: 0 auto;
+        width: auto;
+    }
+}
