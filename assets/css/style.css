@@ -3,6 +3,7 @@ body{
     background-repeat: repeat-y;
     background-size: contain;
     background-position: center 0;
+    border: 2px rgba(54, 43, 43, 0.513) solid;
     width: 100%;
     color: rgb(0, 0, 0);
     font-family: 'Noto Sans KR', sans-serif;
@@ -34,6 +35,7 @@ font-family: 'Literata', serif; */
 #main-box{
     background-image:  url("../../assets/images/natural-muslin-fabric-7-yard-bolt-by-the.jpg");
     background-repeat: repeat;
+    border: 2px rgba(39, 33, 33, 0.815) solid;
     /* background-size: contain; */
     background-position: center 0;
     width:100%;
@@ -152,9 +154,7 @@ h2{
     justify-content: center;
 }
 
-
-#about-content, #port-content, #contact-content {
-    
+#about-content, #port-content{
     width: 100%;
     height: auto;
     margin: 35px;
@@ -164,17 +164,25 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color:rgb(37, 37, 34);
+    background-color: rgba(49, 48, 46, 0.253);
+}
+
+.header-text{
+    color:black;
+    font-family: 'IM Fell English SC', serif;
+    padding-top: 7px;
 }
 
 #about-box{
     /* background-color: rgba(0, 0, 0, 0.349); */
     border: 2px rgba(54, 43, 43, 0.513) solid;
     justify-content: center;
-
 }
 
-.shark-pick{
+#shark-box{
     height: auto;
+    margin-left:5px;
 }
 
 #title-block{
@@ -225,6 +233,7 @@ p{
 #links-1, #links-2, #links-3, #links-4, #links-5, #links-6{
     color: black;
 }
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -238,9 +247,7 @@ p{
     flex-direction:row; 
     align-items: flex-start;
     justify-content:center;
-    position: inherit;
-
-    
+    position: inherit; 
 }
 
 .flex-aside-imgs {
@@ -269,7 +276,7 @@ p{
     height: 30px;
     position: absolute;
     background-color: rgb(0, 0, 0, 0.349);
-    top: 70%;
+    top: 60%;
 }
 
 .portfolio-word{
@@ -283,19 +290,64 @@ p{
     width: 300%;
     height: auto;
 }
+
+.port-btn{
+    color:black;
+    font-family: 'IM Fell English SC', serif;
+    border-radius: 50px 23px 50px 23px;
+    background-color: rgba(209, 202, 179, 0.767);
+    margin:1% 7% 1% 7%;  
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    border: 2px rgba(54, 43, 43, 0.513) solid;
+    text-align: center;
+}
 /* end protfolio style */
 
 /* contact me style */
-#contact-box{
+#contact-content {
     width: 80%;
+    height: auto;
+    margin: 35px;
+    text-align: center;
+    padding: 15px;
     margin-bottom: 5%;
-    /* background-color: rgba(0, 0, 0, 0.349); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:rgb(37, 37, 34);
+    /* background-color: rgba(49, 48, 46, 0.253); */
+}
+#contact-box{
+    width: 50%;
+    /* margin-bottom: 5%; */
+    background-color: rgba(0, 0, 0, 0.349);
     display: flex;
     flex-direction: column;
     justify-content: baseline;
+    align-items: center;
     color: rgb(209, 202, 179);
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
+#find-me-box{
+    width: 100%;
+    /* margin-bottom: 5%; */
+    background-color: rgba(0, 0, 0, 0.349);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    color: rgb(209, 202, 179);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
 #name-info{
     display: flex;
     flex-direction: column;
@@ -307,9 +359,9 @@ p{
     position: relative;
     margin: auto;
     border: 1px;
-    border-color:darkgray;
+    background-color:rgb(240, 236, 222, 0.801);
+    border-color: rgb(68, 65, 65);
     border-style: solid;
-
 }
 
 #mail {
@@ -318,9 +370,9 @@ p{
     position: relative;
     margin: auto;
     border: 1px;
-    border-color: darkgray;
+    background-color:rgba(240, 236, 222, 0.801);
+    border-color: rgb(68, 65, 65);
     border-style: solid;
-
 }
 
 #msg{
@@ -329,14 +381,34 @@ p{
     position: relative;
     margin: auto;
     border: 1px;
-    border-color:darkgray;
+    background-color:rgba(240, 236, 222, 0.801);
+    border-color: rgb(68, 65, 65);
     border-style: solid;
 }
 
 form {
     margin: 0 auto;
-    width: auto;
-    
+    width: auto; 
+}
+
+#style-text{
+    font-family: 'IM Fell English SC', serif;
+    padding-top: 7px;
+}
+
+#msg-btn{
+    font-family: 'IM Fell English SC', serif;
+    color: black;
+    text-shadow: 0px 0px rgb(0, 0, 0);
+    line-height: 30px;
+    border-radius: 50px 23px 50px 23px;
+    background-color: rgba(209, 202, 179, 0.767);
+    margin:1% 7% 1% 7%;  
+    width: 100px;
+    height: 30px;
+    /* padding-top: 10px; */
+    border: 2px rgba(54, 43, 43, 0.513) solid;
+    text-align: center;
 }
 
 /* end contact me style */
