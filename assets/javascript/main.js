@@ -70,9 +70,12 @@ window.onload = function(){
         $(".flex-word").append('<section id="shark-box"></section>');
         $("#shark-box").append('<img class="portfolio-pick" src="assets/images/aTidBitBroody (4).jpg" alt="Profile pick">');
         $(".flex-word").append('<section id="word-box"></section>');
-        $("#word-box").append(` <p id="p-side">In my life I have had many careers. At age 16 I co-started a small film studio we made promotional videos for local businesses. Then later I started my own custom clothing company which ran full steam for about 6 years, and still exists to this day on a smaller scale. I was on the board of directors for the 501-c7 Nonprofit MIssion Control for 8 years, and I have been a hair stylist, specializing in creative color for 13 years. 6 of which have been spent and the multi award winning salon GlamaRama. Through this I have an extensive history of working in groups, and on teams. Both in leadership roles, and in hands on positions.<br>
-        <br> Many people assume that my passion is presentation, but this is merely a side effect of my actual passion. Which is simply to learn how things work. A suet is only as good as it’s stitching. <br>
-        <br> My interests in tech are extensive . I am extremely excited to be joining this industry.</p>`);
+        $("#word-box").append(` <p id="p-side">As reached my 30s, I looked back at my eclectic yet highly productive work history, and I found within all of my career paths two common threads. A passion for design and engineering. <br>
+        Whether this be the 6 years I’ve spent studying and working as a fashion designer and pattern maker. With a focus on custom leather accessories. To my love of social engineering, with the 8 years spent in event production and management. On the board of directors at the 501-c7 Nonprofit Mission Control SF.  Or the 13 years I’ve been a hairstylist specializing in creative color, cuts and dreadlock. My primary source of income. <br>
+        Not to mention my side projects and hobbies. like the small film studio I co-started at 16, or my skills as an amateur carpenter.<br>
+        Because of all of this I have an extensive history of working in groups, and on teams. Both in leadership roles, and in hands on positions. <br>
+        My interests in tech are extensive, and I am extremely excited to be joining this industry.</p>`);
+        
         $("#word-box").append('<section id="skill-content"></section>');
         
         $("#skill-content").append('<section id="front-end" class="icon-area"></section>');
@@ -102,13 +105,13 @@ window.onload = function(){
         $("#port-box").append('<section class="flex-container"></section>');
         $(".flex-container").append('<section class="flex-first-imgs"></section>');
 
-        $(".flex-first-imgs").append('<section class="pick-word" id="gif-1"></section>');
-        $("#gif-1").append('<section class="banner" id="banner-1"></section>');
-        $("#banner-1").append('<p class="portfolio-word">John Waters themed HangMan</p>');
-        $("#gif-1").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/johnIMG.jpg" data-still="assets/images/gif/gif-img/johnIMG.jpg" data-animate="assets/images/gif/johnwater2.gif" data-state="still" alt="John Waters Hangman Game">');
-        $("#gif-1").append('<section class="f-r-se" id="links-1"></section>');
-        $("#links-1").append('<a class="port-btn" href="https://github.com/Zevubu/Word-Guess-Game">Github</a>')
-        $("#links-1").append('<a class="port-btn" href="https://zevubu.github.io/Word-Guess-Game/">Visit Site</a>')
+        $(".flex-first-imgs").append('<section class="pick-word" id="gif-3"></section>');
+        $("#gif-3").append('<section class="banner" id="banner-3"></section>');
+        $("#banner-3").append('<p class="portfolio-word">Lost&Hound Lost Pet Finder</p>');
+        $("#gif-3").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/lost-and-hound-IMG.jpg" data-still="assets/images/gif/gif-img/lost-and-hound-IMG.jpg" data-animate="assets/images/gif/lost-and-hound.gif" data-state="still" alt="Lost & Hound pet finder.">');
+        $("#gif-3").append('<section class="f-r-se" id="links-3"></section>');
+        $("#links-3").append('<a class="port-btn" href="https://github.com/Zevubu/pet-finder">Github</a>')
+        $("#links-3").append('<a class="port-btn" href="http://cryptic-gorge-70462.herokuapp.com/">Visit Site</a>')
 
         $(".flex-first-imgs").append('<section class="pick-word" id="gif-2"></section>');
         $("#gif-2").append('<section class="banner" id="banner-2"></section>');
@@ -118,13 +121,23 @@ window.onload = function(){
         $("#links-2").append('<a class="port-btn" href="https://github.com/Zevubu/TriviaGame">Github</a>')
         $("#links-2").append('<a class="port-btn" href="https://zevubu.github.io/TriviaGame/">Visit Site</a>')
 
-        $(".flex-first-imgs").append('<section class="pick-word" id="gif-3"></section>');
-        $("#gif-3").append('<section class="banner" id="banner-3"></section>');
-        $("#banner-3").append('<p class="portfolio-word">Steven Universe Battle Game</p>');
-        $("#gif-3").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/stevenIMG.jpg" data-still="assets/images/gif/gif-img/stevenIMG.jpg" data-animate="assets/images/gif/steven.gif" data-state="still" alt="Steven Universe R.P.G game">');
-        $("#gif-3").append('<section class="f-r-se" id="links-3"></section>');
-        $("#links-3").append('<a class="port-btn" href="https://github.com/Zevubu/unit-4-game">Github</a>')
-        $("#links-3").append('<a class="port-btn" href="https://zevubu.github.io/unit-4-game/">Visit Site</a>')
+        $(".flex-first-imgs").append('<section class="pick-word" id="gif-1"></section>');
+        $("#gif-1").append('<section class="banner" id="banner-1"></section>');
+        $("#banner-1").append('<p class="portfolio-word">John Waters themed HangMan</p>');
+        $("#gif-1").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/johnIMG.jpg" data-still="assets/images/gif/gif-img/johnIMG.jpg" data-animate="assets/images/gif/johnwater2.gif" data-state="still" alt="John Waters Hangman Game">');
+        $("#gif-1").append('<section class="f-r-se" id="links-1"></section>');
+        $("#links-1").append('<a class="port-btn" href="https://github.com/Zevubu/Word-Guess-Game">Github</a>')
+        $("#links-1").append('<a class="port-btn" href="https://zevubu.github.io/Word-Guess-Game/">Visit Site</a>')
+
+        
+
+        // $(".flex-first-imgs").append('<section class="pick-word" id="gif-3"></section>');
+        // $("#gif-3").append('<section class="banner" id="banner-3"></section>');
+        // $("#banner-3").append('<p class="portfolio-word">Steven Universe Battle Game</p>');
+        // $("#gif-3").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/stevenIMG.jpg" data-still="assets/images/gif/gif-img/stevenIMG.jpg" data-animate="assets/images/gif/steven.gif" data-state="still" alt="Steven Universe R.P.G game">');
+        // $("#gif-3").append('<section class="f-r-se" id="links-3"></section>');
+        // $("#links-3").append('<a class="port-btn" href="https://github.com/Zevubu/unit-4-game">Github</a>')
+        // $("#links-3").append('<a class="port-btn" href="https://zevubu.github.io/unit-4-game/">Visit Site</a>')
         
         
         $(".flex-container").append('<section class ="flex-aside-imgs"></section>');
