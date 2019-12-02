@@ -24,7 +24,8 @@ font-family: 'IM Fell English SC', serif;
 font-family: 'Literata', serif; */
 #head-box{
    padding: 14.3%;
-   color: rgb(209, 202, 179);
+   /* color: rgb(209, 202, 179); */
+   color: rgb(216, 212, 198);
    text-shadow: 2px 2px rgb(0, 0, 0);
    text-align: center;
    display: flex;
