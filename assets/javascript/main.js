@@ -70,30 +70,27 @@ window.onload = function(){
         $(".flex-word").append('<section id="shark-box"></section>');
         $("#shark-box").append('<img class="portfolio-pick" src="assets/images/aTidBitBroody (4).jpg" alt="Profile pick">');
         $(".flex-word").append('<section id="word-box"></section>');
-        $("#word-box").append(` <p id="p-side">As reached my 30s, I looked back at my eclectic yet highly productive work history, and I found within all of my career paths two common threads. A passion for design and engineering. <br>
-        Whether this be the 6 years I’ve spent studying and working as a fashion designer and pattern maker. With a focus on custom leather accessories. To my love of social engineering, with the 8 years spent in event production and management. On the board of directors at the 501-c7 Nonprofit Mission Control SF.  Or the 13 years I’ve been a hairstylist specializing in creative color, cuts and dreadlock. My primary source of income. <br>
-        Not to mention my side projects and hobbies. like the small film studio I co-started at 16, or my skills as an amateur carpenter.<br>
-        Because of all of this I have an extensive history of working in groups, and on teams. Both in leadership roles, and in hands on positions. <br>
-        My interests in tech are extensive, and I am extremely excited to be joining this industry.</p>`);
+        $("#word-box").append(` <p id="p-side">Full Stack Web Developer with experience with React.js, JavaScript, Express, Node.js, Python, Mongodb, MySQL, and others. As well an extensive background in design, color theory,  social engineering and working on teams in both leadership roles and hands on positions. Known among colleagues as charismatic, productive, task oriented, and creative. With an attention to detail no matter the complexity of the project.</p>`);
         
         $("#word-box").append('<section id="skill-content"></section>');
         
         $("#skill-content").append('<section id="front-end" class="icon-area"></section>');
+        $("#front-end").append('<img class="icon darker" src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png" alt="Javascript">');
         $("#front-end").append('<img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML5">');
         $("#front-end").append('<img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS3">');
-        $("#front-end").append('<img class="icon darker" src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png" alt="Javascript">');
         $("#front-end").append('<img class="icon" src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png" alt="Node">');
         
         $("#skill-content").append('<section id="back-end" class="icon-area"></section>');
-        $("#back-end").append('<img class="icon" src="https://www.innocreate.com/wp-content/uploads/2017/07/jsonlogo-300x300.png" alt="Html">');
+        $("#back-end").append('<img class="icon" src="https://hangtenseo.com/wp-content/uploads/2019/10/Python-Logo.png" alt="Python">');
+        $("#back-end").append('<img class="icon" src="https://www.innocreate.com/wp-content/uploads/2017/07/jsonlogo-300x300.png" alt="Json">');
         $("#back-end").append('<img class="icon darker" src="https://www.fullstacklabs.co/img/developersReact/React@2x.png" alt="React">');
         $("#back-end").append('<img class="icon" src="http://pngimg.com/uploads/mysql/mysql_PNG9.png" alt="MySQL">');
         $("#back-end").append('<img class="icon" src="assets/images/icons/mongo.png" alt="MongoDB">');
-        $("#back-end").append('<img class="icon" src="https://hangtenseo.com/wp-content/uploads/2019/10/Python-Logo.png" alt="Python">');
        
-        $("#skill-content").append('<section id="next-end" class="icon-area"></section>');
-        $("#next-end").append('<img class="icon" src="assets/images/icons/output-onlinepngtools.png" alt="Bootstrap">');
-        $("#next-end").append('<img class="icon" src="https://i.pinimg.com/originals/34/20/e5/3420e571b3d7a4a348d8fad91e3bfda4.png" alt="Jquery">');
+       
+        // $("#skill-content").append('<section id="next-end" class="icon-area"></section>');
+        // $("#next-end").append('<img class="icon" src="assets/images/icons/output-onlinepngtools.png" alt="Bootstrap">');
+        // $("#next-end").append('<img class="icon" src="https://i.pinimg.com/originals/34/20/e5/3420e571b3d7a4a348d8fad91e3bfda4.png" alt="Jquery">');
         
     };
     // makes portfolio page
@@ -109,6 +106,8 @@ window.onload = function(){
         $("#gif-3").append('<section class="banner" id="banner-3"></section>');
         $("#banner-3").append('<p class="portfolio-word">Lost&Hound Lost Pet Finder</p>');
         $("#gif-3").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/lost-and-hound-IMG.jpg" data-still="assets/images/gif/gif-img/lost-and-hound-IMG.jpg" data-animate="assets/images/gif/lost-and-hound.gif" data-state="still" alt="Lost & Hound pet finder.">');
+        $("#gif-3").append('<section class="f-r-se" id="about-3"></section>');
+        $("#about-3").append('<p class="word-about">A page to find lost pets, using mapquest by pinning lost, sighted, and found animals to map. Created map, pins, and relevant info cards, and managed the GitHub repository. Used JavaScript, MapQuest API, Leaflet API, MySQL, and express.</p>');
         $("#gif-3").append('<section class="f-r-se" id="links-3"></section>');
         $("#links-3").append('<a class="port-btn" href="https://github.com/Zevubu/pet-finder">Github</a>')
         $("#links-3").append('<a class="port-btn" href="http://cryptic-gorge-70462.herokuapp.com/">Visit Site</a>')
@@ -117,6 +116,8 @@ window.onload = function(){
         $("#gif-2").append('<section class="banner" id="banner-2"></section>');
         $("#banner-2").append('<p class="portfolio-word">Genesis P-Orridge Trivia</p>');
         $("#gif-2").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/genPImg.jpg" data-still="assets/images/gif/gif-img/genPImg.jpg" data-animate="assets/images/gif/geniP.gif" data-state="still" alt="Genisis P Trivia Game">');
+        $("#gif-2").append('<section class="f-r-se" id="about-2"></section>');
+        $("#about-2").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-2").append('<section class="f-r-se" id="links-2"></section>');
         $("#links-2").append('<a class="port-btn" href="https://github.com/Zevubu/TriviaGame">Github</a>')
         $("#links-2").append('<a class="port-btn" href="https://zevubu.github.io/TriviaGame/">Visit Site</a>')
@@ -125,10 +126,14 @@ window.onload = function(){
         $("#gif-1").append('<section class="banner" id="banner-1"></section>');
         $("#banner-1").append('<p class="portfolio-word">John Waters themed HangMan</p>');
         $("#gif-1").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/johnIMG.jpg" data-still="assets/images/gif/gif-img/johnIMG.jpg" data-animate="assets/images/gif/johnwater2.gif" data-state="still" alt="John Waters Hangman Game">');
+        $("#gif-1").append('<section class="f-r-se" id="about-1"></section>');
+        $("#about-1").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-1").append('<section class="f-r-se" id="links-1"></section>');
         $("#links-1").append('<a class="port-btn" href="https://github.com/Zevubu/Word-Guess-Game">Github</a>')
         $("#links-1").append('<a class="port-btn" href="https://zevubu.github.io/Word-Guess-Game/">Visit Site</a>')
 
+        $(".flex-container").append('<section class="about-info-box"></section>');
+        $(".about-info-box").append('<p id="word-about">A page to find lost pets, using mapquest by pinning lost, sighted, and found animals to map. Created map, pins, and relevant info cards, and managed the GitHub repository. Used JavaScript, MapQuest API, Leaflet API, MySQL, and express.</p>');
         
 
         // $(".flex-first-imgs").append('<section class="pick-word" id="gif-3"></section>');
@@ -145,6 +150,8 @@ window.onload = function(){
         $("#gif-4").append('<section class="banner" id="banner-4"></section>');
         $("#banner-4").append('<p class="portfolio-word">Giftastic Gif Searcher</p>');
         $("#gif-4").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/gifamizerIMG.jpg" data-still="assets/images/gif/gif-img/gifamizerIMG.jpg" data-animate="assets/images/gif/gifamizer.gif" data-state="still" alt="Giftastic">');
+        $("#gif-4").append('<section class="f-r-se" id="about-4"></section>');
+        $("#about-4").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-4").append('<section class="f-r-se" id="links-4"></section>');
         $("#links-4").append('<a class="port-btn" href="https://github.com/Zevubu/GifTastic">Github</a>')
         $("#links-4").append('<a class="port-btn" href="https://zevubu.github.io/GifTastic/">Visit Site</a>')
@@ -153,6 +160,8 @@ window.onload = function(){
         $("#gif-5").append('<section class="banner" id="banner-5"></section>');
         $("#banner-5").append('<p class="portfolio-word">Train scheduler</p>');
         $("#gif-5").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/trainIMG.jpg" data-still="assets/images/gif/gif-img/trainIMG.jpg" data-animate="assets/images/gif/train.gif" data-state="still" alt="Train Scheduler">');
+        $("#gif-5").append('<section class="f-r-se" id="about-5"></section>');
+        $("#about-5").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-5").append('<section class="f-r-se" id="links-5"></section>');
         $("#links-5").append('<a class="port-btn" href="https://github.com/Zevubu/train-scheduler">Github</a>')
         $("#links-5").append('<a class="port-btn" href="https://zevubu.github.io/train-scheduler/">Visit Site</a>')
@@ -161,6 +170,8 @@ window.onload = function(){
         $("#gif-6").append('<section class="banner" id="banner-6"></section>');
         $("#banner-6").append('<p class="portfolio-word">LIRI Personal Assistant</p>');
         $("#gif-6").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/LiriIMG.jpg" data-still="assets/images/gif/gif-img/LiriIMG.jpg" data-animate="assets/images/gif/LIRI.gif" data-state="still" alt="LIRI Bot Personal Assitent">');
+        $("#gif-6").append('<section class="f-r-se" id="about-6"></section>');
+        $("#about-6").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-6").append('<section class="f-r-se" id="links-6"></section>');
         $("#links-6").append('<a class="port-btn" href="https://github.com/Zevubu/LIRIBot">Github</a>')
         $("#links-6").append('<a class="port-btn" href="">No Site</a>')
@@ -175,9 +186,29 @@ window.onload = function(){
             if (state === "still") {
               $(this).attr("src", $(this).attr("data-animate"));
               $(this).attr("data-state", "animate");
+              if($(this).attr("alt") === "Lost & Hound pet finder."){
+                  $("#word-about").text("A page to find lost pets, using mapquest by pinning lost, sighted, and found animals to map. Created map, pins, and relevant info cards, and managed the GitHub repository. Used JavaScript, MapQuest API, Leaflet API, MySQL, and express.")
+              }
+              else if($(this).attr("alt") === "Genisis P Trivia Game"){
+                $("#word-about").text("A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.")
+              }
+              else if($(this).attr("alt") === "John Waters Hangman Game"){
+                $("#word-about").text("test")
+              }
+              else if($(this).attr("alt") === "Giftastic"){
+                $("#word-about").text("test")
+              }
+              else if($(this).attr("alt") === "Train Scheduler"){
+                $("#word-about").text("test")
+              }
+              else if($(this).attr("alt") === "LIRI Bot Personal Assitent"){
+                $("#word-about").text("test")
+              }
+              
             } else {
               $(this).attr("src", $(this).attr("data-still"));
               $(this).attr("data-state", "still");
+              $("#word-about").text("Nope")
             }
           });
         
