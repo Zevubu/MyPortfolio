@@ -221,7 +221,7 @@ window.onload = function(){
         // navMakerA();
         $("#contact-content").append('<section id="contact-box"></section>');
         $("#contact-box").append('<h2 id="style-text">Contact Me</h2>');
-        $("#contact-box").append('<form id="contact-form" action="mailto:zevubu@gmail.com" method="post" enctype="text/plain"></form>');
+        $("#contact-box").append('<form id="contact-form" action="assets/php/mail.php/" method="POST"></form>');
         $("#contact-form").append('<section id="name-info"></section>');
         $("#name-info").append('<label id="style-text" for="name">Name:</label>');
         $("#name-info").append('<input id="name" type="text" id="name" name="name">');
