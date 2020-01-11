@@ -227,7 +227,7 @@ p{
 
 /* portfolio style */
 #port-box{
-    /* width: 80%; */
+    width: 100%;
     /* background-color: rgba(0, 0, 0, 0.349); */
     border: 2px rgba(54, 43, 43, 0.513) solid;
 }
@@ -278,13 +278,19 @@ p{
     height: 30px;
     position: absolute;
     background-color: rgb(0, 0, 0, 0.349);
-    top: 50%;
+    top: 60%;
 }
 
 .portfolio-word{
     text-align: center;
     color: rgb(209, 202, 179);
     text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.about-info-box{
+    border: 2px rgba(54, 43, 43, 0.513) solid;
+    margin: 2%;
+    line-height: 25px;
+    /* width: 80%; */
 }
 
 .filler{

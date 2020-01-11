@@ -106,8 +106,8 @@ window.onload = function(){
         $("#gif-3").append('<section class="banner" id="banner-3"></section>');
         $("#banner-3").append('<p class="portfolio-word">Lost&Hound Lost Pet Finder</p>');
         $("#gif-3").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/lost-and-hound-IMG.jpg" data-still="assets/images/gif/gif-img/lost-and-hound-IMG.jpg" data-animate="assets/images/gif/lost-and-hound.gif" data-state="still" alt="Lost & Hound pet finder.">');
-        $("#gif-3").append('<section class="f-r-se" id="about-3"></section>');
-        $("#about-3").append('<p class="word-about">A page to find lost pets, using mapquest by pinning lost, sighted, and found animals to map. Created map, pins, and relevant info cards, and managed the GitHub repository. Used JavaScript, MapQuest API, Leaflet API, MySQL, and express.</p>');
+        // $("#gif-3").append('<section class="f-r-se" id="about-3"></section>');
+        // $("#about-3").append('<p class="word-about">A page to find lost pets, using mapquest by pinning lost, sighted, and found animals to map. Created map, pins, and relevant info cards, and managed the GitHub repository. Used JavaScript, MapQuest API, Leaflet API, MySQL, and express.</p>');
         $("#gif-3").append('<section class="f-r-se" id="links-3"></section>');
         $("#links-3").append('<a class="port-btn" href="https://github.com/Zevubu/pet-finder">Github</a>')
         $("#links-3").append('<a class="port-btn" href="http://cryptic-gorge-70462.herokuapp.com/">Visit Site</a>')
@@ -116,8 +116,8 @@ window.onload = function(){
         $("#gif-2").append('<section class="banner" id="banner-2"></section>');
         $("#banner-2").append('<p class="portfolio-word">Genesis P-Orridge Trivia</p>');
         $("#gif-2").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/genPImg.jpg" data-still="assets/images/gif/gif-img/genPImg.jpg" data-animate="assets/images/gif/geniP.gif" data-state="still" alt="Genisis P Trivia Game">');
-        $("#gif-2").append('<section class="f-r-se" id="about-2"></section>');
-        $("#about-2").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
+        // $("#gif-2").append('<section class="f-r-se" id="about-2"></section>');
+        // $("#about-2").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-2").append('<section class="f-r-se" id="links-2"></section>');
         $("#links-2").append('<a class="port-btn" href="https://github.com/Zevubu/TriviaGame">Github</a>')
         $("#links-2").append('<a class="port-btn" href="https://zevubu.github.io/TriviaGame/">Visit Site</a>')
@@ -126,8 +126,8 @@ window.onload = function(){
         $("#gif-1").append('<section class="banner" id="banner-1"></section>');
         $("#banner-1").append('<p class="portfolio-word">John Waters themed HangMan</p>');
         $("#gif-1").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/johnIMG.jpg" data-still="assets/images/gif/gif-img/johnIMG.jpg" data-animate="assets/images/gif/johnwater2.gif" data-state="still" alt="John Waters Hangman Game">');
-        $("#gif-1").append('<section class="f-r-se" id="about-1"></section>');
-        $("#about-1").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
+        // $("#gif-1").append('<section class="f-r-se" id="about-1"></section>');
+        // $("#about-1").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-1").append('<section class="f-r-se" id="links-1"></section>');
         $("#links-1").append('<a class="port-btn" href="https://github.com/Zevubu/Word-Guess-Game">Github</a>')
         $("#links-1").append('<a class="port-btn" href="https://zevubu.github.io/Word-Guess-Game/">Visit Site</a>')
@@ -150,8 +150,8 @@ window.onload = function(){
         $("#gif-4").append('<section class="banner" id="banner-4"></section>');
         $("#banner-4").append('<p class="portfolio-word">Giftastic Gif Searcher</p>');
         $("#gif-4").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/gifamizerIMG.jpg" data-still="assets/images/gif/gif-img/gifamizerIMG.jpg" data-animate="assets/images/gif/gifamizer.gif" data-state="still" alt="Giftastic">');
-        $("#gif-4").append('<section class="f-r-se" id="about-4"></section>');
-        $("#about-4").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
+        // $("#gif-4").append('<section class="f-r-se" id="about-4"></section>');
+        // $("#about-4").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-4").append('<section class="f-r-se" id="links-4"></section>');
         $("#links-4").append('<a class="port-btn" href="https://github.com/Zevubu/GifTastic">Github</a>')
         $("#links-4").append('<a class="port-btn" href="https://zevubu.github.io/GifTastic/">Visit Site</a>')
@@ -160,8 +160,8 @@ window.onload = function(){
         $("#gif-5").append('<section class="banner" id="banner-5"></section>');
         $("#banner-5").append('<p class="portfolio-word">Train scheduler</p>');
         $("#gif-5").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/trainIMG.jpg" data-still="assets/images/gif/gif-img/trainIMG.jpg" data-animate="assets/images/gif/train.gif" data-state="still" alt="Train Scheduler">');
-        $("#gif-5").append('<section class="f-r-se" id="about-5"></section>');
-        $("#about-5").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
+        // $("#gif-5").append('<section class="f-r-se" id="about-5"></section>');
+        // $("#about-5").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-5").append('<section class="f-r-se" id="links-5"></section>');
         $("#links-5").append('<a class="port-btn" href="https://github.com/Zevubu/train-scheduler">Github</a>')
         $("#links-5").append('<a class="port-btn" href="https://zevubu.github.io/train-scheduler/">Visit Site</a>')
@@ -170,8 +170,8 @@ window.onload = function(){
         $("#gif-6").append('<section class="banner" id="banner-6"></section>');
         $("#banner-6").append('<p class="portfolio-word">LIRI Personal Assistant</p>');
         $("#gif-6").append('<img class="portfolio-pick gif" src="assets/images/gif/gif-img/LiriIMG.jpg" data-still="assets/images/gif/gif-img/LiriIMG.jpg" data-animate="assets/images/gif/LIRI.gif" data-state="still" alt="LIRI Bot Personal Assitent">');
-        $("#gif-6").append('<section class="f-r-se" id="about-6"></section>');
-        $("#about-6").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
+        // $("#gif-6").append('<section class="f-r-se" id="about-6"></section>');
+        // $("#about-6").append('<p class="word-about">A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.</p>');
         $("#gif-6").append('<section class="f-r-se" id="links-6"></section>');
         $("#links-6").append('<a class="port-btn" href="https://github.com/Zevubu/LIRIBot">Github</a>')
         $("#links-6").append('<a class="port-btn" href="">No Site</a>')
@@ -221,7 +221,7 @@ window.onload = function(){
         // navMakerA();
         $("#contact-content").append('<section id="contact-box"></section>');
         $("#contact-box").append('<h2 id="style-text">Contact Me</h2>');
-        $("#contact-box").append('<form id="contact-form" action="assets/php/mail.php/" method="POST"></form>');
+        $("#contact-box").append('<form id="contact-form" action="mailto:zevubu@gmail.com" method="post" enctype="text/plain"></form>');
         $("#contact-form").append('<section id="name-info"></section>');
         $("#name-info").append('<label id="style-text" for="name">Name:</label>');
         $("#name-info").append('<input id="name" type="text" id="name" name="name">');
