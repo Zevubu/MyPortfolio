@@ -43,7 +43,7 @@ window.onload = function(){
     let homePage = function(){
         aboutPage();
         portfolioPage();
-        contactPage();
+        // contactPage();
         findMePage()
     
         // $("#page-content").append('<img src="assets/images/sharke_clipped_rev_1.png">');
@@ -64,7 +64,7 @@ window.onload = function(){
     let aboutPage = function(){
          // 
         $("#about-content").append('<section id="about-box"></section>');
-        $("#about-box").append('<h2 class="header-text">A little about me</h2>');
+        $("#about-box").append('<h2 class="header-text">About me</h2>');
         $("#about-box").append('<hr id="title-block">');
         $("#about-box").append('<section class="flex-word"></section>');
         $(".flex-word").append('<section id="shark-box"></section>');
@@ -97,7 +97,7 @@ window.onload = function(){
     let portfolioPage = function(){
         // navMakerA();
         $("#port-content").append('<hr id="port-box"></section>');
-        $("#port-box").append('<h2 class="header-text">Welcome to my portfolio.</h2>');
+        $("#port-box").append('<h2 class="header-text">Some work I\'ve done</h2>');
         $("#port-box").append('<hr id="title-block"></section>');
         $("#port-box").append('<section class="flex-container"></section>');
         $(".flex-container").append('<section class="flex-first-imgs"></section>');
@@ -131,9 +131,10 @@ window.onload = function(){
         $("#gif-1").append('<section class="f-r-se" id="links-1"></section>');
         $("#links-1").append('<a class="port-btn" href="https://github.com/Zevubu/Word-Guess-Game">Github</a>')
         $("#links-1").append('<a class="port-btn" href="https://zevubu.github.io/Word-Guess-Game/">Visit Site</a>')
-
         $(".flex-container").append('<section class="about-info-box"></section>');
-        $(".about-info-box").append('<p id="word-about">A page to find lost pets, using mapquest by pinning lost, sighted, and found animals to map. Created map, pins, and relevant info cards, and managed the GitHub repository. Used JavaScript, MapQuest API, Leaflet API, MySQL, and express.</p>');
+        $(".about-info-box").append('<p>App info</p>');
+        $(".about-info-box").append('<section class="present-info-box"></section>');
+        $(".present-info-box").append('<p id="word-about">found here!</p>');
         
 
         // $(".flex-first-imgs").append('<section class="pick-word" id="gif-3"></section>');
@@ -187,28 +188,28 @@ window.onload = function(){
               $(this).attr("src", $(this).attr("data-animate"));
               $(this).attr("data-state", "animate");
               if($(this).attr("alt") === "Lost & Hound pet finder."){
-                  $("#word-about").text("A page to find lost pets, using mapquest by pinning lost, sighted, and found animals to map. Created map, pins, and relevant info cards, and managed the GitHub repository. Used JavaScript, MapQuest API, Leaflet API, MySQL, and express.")
+                  $("#word-about").text("Lost & Hound!\nA page to find lost pets, using mapquest by pinning lost, sighted, and found animals to map. Created map, pins, and relevant info cards, and managed the GitHub repository. Used JavaScript, MapQuest API, Leaflet API, MySQL, and express.")
               }
               else if($(this).attr("alt") === "Genisis P Trivia Game"){
-                $("#word-about").text("A trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.")
+                $("#word-about").text("Genisis P Trivia!\nA trivia-based fan page. Created an interactive, dynamic game using JavaScript, jQuery, HTML5, and CSS.")
               }
               else if($(this).attr("alt") === "John Waters Hangman Game"){
-                $("#word-about").text("test")
+                $("#word-about").text("John Waters Hangman!\nThe filthiest game alive! A hang man style game based off of the works of John Waters. Built with HTML5 Javascript and CSS")
               }
               else if($(this).attr("alt") === "Giftastic"){
-                $("#word-about").text("test")
+                $("#word-about").text("Giftastic!\nGif search engine, built useing the Giphy Api, HTML5, CSS, and Javascript")
               }
               else if($(this).attr("alt") === "Train Scheduler"){
-                $("#word-about").text("test")
+                $("#word-about").text("Train Scheduler!\nIt's the dystopian future you allway's dreamed of, and you got places to be! Train scheduler was built with JavaScript, Firebase, HTML5, and CSS")
               }
               else if($(this).attr("alt") === "LIRI Bot Personal Assitent"){
-                $("#word-about").text("test")
+                $("#word-about").text("LIRI Bot!\nLIRI is like Iphones SIRI. Built to pull info from Spotify, twitter, and ombd. LIRI is a node js app built with Javascript")
               }
               
             } else {
               $(this).attr("src", $(this).attr("data-still"));
               $(this).attr("data-state", "still");
-              $("#word-about").text("Nope")
+              $("#word-about").text("found here!")
             }
           });
         
@@ -238,7 +239,7 @@ window.onload = function(){
     let findMePage = function(){
         // navMakerA();
         $("#find-me-content").append('<section id="find-me-box"></section>');
-        $("#find-me-box").append('<h2 id="style-text">Find Me Online</h2>');
+        $("#find-me-box").append('<h2 id="style-text">Find Me Here</h2>');
         $("#find-me-box").append('<section id="find-me-area" class="icon-area"></section>');
         $("#find-me-area").append('<a href="https://github.com/Zevubu"><img class="icon" src="https://cdn0.iconfinder.com/data/icons/social-circle/595/github-512.png" alt="GitHub"></a>');
         $("#find-me-area").append('<a href="https://www.linkedin.com/in/zev-hoffman-b5770532/"><img class="icon" src="https://pndblog.typepad.com/.a/6a00e0099631d0883301bb09d01edf970d-800wi" alt="CSS3"></a>');
